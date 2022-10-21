@@ -88,7 +88,7 @@ if ed == 'en':
                 all_items.append(formatted_item + "\n")
                 temp_item = ""
 
-    if cp == 'bin':
+    if cp == 'bin2':
         
         temp_item = ""
         all_items = []
@@ -102,7 +102,7 @@ if ed == 'en':
                 item_writer = csv.writer(new_f, delimiter='\n')
                 item_writer.writerow(all_items)
 
-    if cp == 'bin2':
+    if cp == 'bin3':
         temp_item = ""
         all_items = []
 
@@ -150,6 +150,6 @@ if ed == 'en':
     if cp == 'dif':
         pass
     
-    # new_f.close()
+    new_f.close()
     
 
